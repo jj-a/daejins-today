@@ -1,0 +1,90 @@
+[Root]
+Most Recent Package=daejin setup
+
+
+[Package|daejin setup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Users\owner\Desktop\대진의 하루
+
+[Package|daejin setup|Configure DAO ISAMs]
+Applicable=No
+
+[Package|daejin setup|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|daejin setup|Files Found]
+
+[Package|daejin setup|Files Released]
+
+[Package|daejin setup|Missing Dependency Information]
+
+[Package|daejin setup|Out-of-Date Dependency Information]
+
+[Package|daejin setup|Files Added]
+
+[Package|daejin setup|Files Removed]
+
+[Package|daejin setup|Files In Project]
+C:\Users\owner\Desktop\3-7 2조 Programming\대진의 하루\bin\daejin.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\System32\VB6KO.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|daejin setup|Configure Registry Files]
+Applicable=No
+
+[Package|daejin setup|Configure Remote Servers]
+Applicable=No
+
+[Package|daejin setup|Install Locations]
+C:\Users\owner\Desktop\3-7 2조 Programming\대진의 하루\bin\daejin.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\VB6KO.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|daejin setup|Configure Shared Files]
+Applicable=Yes
+C:\Users\owner\Desktop\3-7 2조 Programming\대진의 하루\bin\daejin.exe=No
+
+[Package|daejin setup|Distribution]
+Type=single
+Size=1.44 MB
+Title=대진의 하루
+
+[Package|daejin setup|IconGroups]
+Group0=대진의 하루
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|daejin setup|대진의 하루]
+Icon1=daejin.exe
+Title1=대진의 하루
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|daejin setup|Package]
+PackageFolder=C:\Users\owner\Desktop\대진의 하루
+ProjectFolder=C:\Users\owner\Desktop\3-7 2조 Programming\대진의 하루\bin
+ServerSideCab=
+File1=C:\Users\owner\Desktop\대진의 하루\setup.exe
+File2=C:\Users\owner\Desktop\대진의 하루\Setup.Lst
+File3=C:\Users\owner\Desktop\대진의 하루\daejin.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
